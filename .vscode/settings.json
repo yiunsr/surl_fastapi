@@ -1,0 +1,29 @@
+{
+    // virtualenv 내 파이썬 경로
+    "python.pythonPath": "C:\\tools\\python37_64\\py_envs\\surl\\Scripts\\python.exe",
+    
+    // vurtalenv 경로
+    "python.venvPath": "C:\\tools\\python37_64\\py_envs\\surl",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    
+    // which 나 where 를 이용해서 실제 pylint 경로를 찾는다. 
+    "python.linting.pylintPath": "C:\\tools\\python37_64\\py_envs\\surl\\Scripts\\pylint.exe",
+    
+    // python code lint 옵션
+    // 해당 경로를 .vscode 폴더내 파일로 잡는다.
+    
+    "python.linting.pylintArgs": [
+    "--rcfile",
+    "${workspaceRoot}\\.vscode\\pylint.config"
+    ],
+    // vscode testing 옵션
+    "python.testing.pytestArgs": [
+    ".","-s"
+    ],
+    
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false
+    
+}
