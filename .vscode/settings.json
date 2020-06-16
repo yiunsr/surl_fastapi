@@ -9,6 +9,9 @@
     
     // which 나 where 를 이용해서 실제 pylint 경로를 찾는다. 
     "python.linting.pylintPath": "C:\\tools\\python37_64\\py_envs\\surl\\Scripts\\pylint.exe",
+
+    // 인텔리센스가 경로를 잘못 잡아서 unresolved-import 나오는 문제를 해결하기 위해
+    "python.jediEnabled":true,
     
     // python code lint 옵션
     // 해당 경로를 .vscode 폴더내 파일로 잡는다.
