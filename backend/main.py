@@ -1,9 +1,7 @@
 import uvicorn
 
-from config import create_app
-
+from config import create_app  # pylint: disable=no-name-in-module
 app = create_app()
-
 
 @app.get("/")
 async def root():

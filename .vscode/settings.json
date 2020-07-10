@@ -9,7 +9,6 @@
     "python.venvPath": "/opt/py_envs/surl",
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": true,
-    
     // which 나 where 를 이용해서 실제 pylint 경로를 찾는다. 
     "python.linting.pylintPath": "/opt/py_envs/surl/bin/pylint",
 
@@ -43,6 +42,4 @@
     },
     "python.languageServer": "Jedi",
     "python.testing.promptToConfigure": false,
-    "python.experiments.optOutFrom": "ALL",
-    
 }
