@@ -1,3 +1,2 @@
-from fastapi import APIRouter
-
-auth_router = APIRouter()
+from .users import User
+from .short_urls import ShortUrls

@@ -26,3 +26,7 @@ class UserInDBBase(UserBase):
 # Additional properties stored in DB
 class UserInDB(UserInDBBase):
     password: str
+
+# Additional properties to return via API
+class User(UserInDBBase):
+    pass

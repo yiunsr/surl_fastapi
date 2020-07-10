@@ -9,7 +9,7 @@
             "type": "python",
             "request": "launch",
             "stopOnEntry": false,
-            "pythonPath": "/opt/py_envs/surl/bin/python",
+            "pythonPath": "${command:python.interpreterPath}",
             "program": "${workspaceRoot}/backend/main.py",
             "cwd": "${workspaceRoot}/backend",
             "env": {},

@@ -2,8 +2,13 @@ import os
 
 class Config:
     SERVER_TYPE = 'none'
+    # secrets.token_urlsafe(32)
+    SECRET_KEY = 'uS-6Cb-BJ8loH9Ww7DGn0Jyxh8boU1L70wICuz7lLgY'
+    SECURITY_ALGORITHM = "HS256"
+    ACCESS_TOKEN_EXPIRE_MINUTES: int = 60 * 24 * 8
     DATABASE_URL = \
        "postgresql://surl_user:abcd1234@127.0.0.1:5432/surl_dev"
+
     @staticmethod
     def init_app(app):
         print('!!!! CHOOSE SERVER TYPE !!!!')
